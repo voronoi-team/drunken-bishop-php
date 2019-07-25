@@ -1,0 +1,30 @@
+{
+    "name": "voronoi/drunken-bishop",
+    "description": "PHP package for generating SSH random art",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Baker",
+            "email": "timbone945@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.1.3"
+    },
+    "require-dev": {
+	    "phpunit/phpunit": "^7.0",
+    	"orchestra/testbench": "~3.8.0"
+	 },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+    	"psr-4": {
+    		"Voronoi\\DrunkenBishop\\": "src/"
+    	}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
